@@ -1,0 +1,68 @@
+/*Style sheet organized in order of how elements appear on the page.*/
+body {
+
+}
+
+header {
+border-bottom: lightgrey solid 1px;
+}
+
+.studentName {
+display: inline-block;
+background-color: lightblue;
+margin-left: 8%;
+margin-bottom: 0;
+padding-top: 10px;
+height: 50px;
+}
+
+.navbar {
+ display: inline-block;
+ margin-left: 55%;
+}
+
+.nabar, a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.centerNavItem {
+  border-left: 2px lightgrey solid;
+  border-right: 2px lightgrey solid;
+}
+
+.contentSection {
+  border: lightgrey solid 2px;
+  width: 80%;
+  height: 500px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.aboutTitle {
+border-bottom: lightgrey solid 2px;
+}
+
+.contentSection > img {
+width: 250px;
+height: 200px;
+float:left;
+margin-right: 15px;
+}
+
+article > p {
+  line-height: 200%;
+}
+
+.bottomText {
+  float: left;
+  line-height: 200%;
+}
+footer {
+  border: solid black 2px;
+  margin-top: 100px;
+  text-align: center;
+}
